@@ -4,7 +4,7 @@
 @import 'tailwindcss/variants';
 
 .nav-bar {
-    margin: 15px;
+    padding: 20px;
 }
 
 #nav-list {
@@ -12,7 +12,7 @@
 }
 
 .background {
-    background: linear-gradient(0deg, #18d4a3, #ff0000);
+    background: linear-gradient(0deg, #182149, #3276ff);
     background-size: 400% 400%;
 
     -webkit-animation: AnimationName 40s ease infinite;

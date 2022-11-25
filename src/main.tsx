@@ -11,17 +11,17 @@ const Root: FC = () => {
   <div className=""> 
   
     <div className="nav-bar bg-gray-300" >
-      <ul className="flex text-3xl " id='nav-list'>
+      <ul className="flex text-3xl p-2" id='nav-list'>
 
-        <li><a className="mx-2 p-1 bg-indigo-300 transition delay-50 hover:bg-indigo-500 hover:p-2" href="">Home</a></li>
+        <li><a className="mx-2 p-1 transition-all delay-100 hover:bg-indigo-100 hover:p-2 hover:border-4" href="">Home</a></li>
 
-        <li><a className="mx-2 p-1 border-4 border-yellow-400 bg-yellow-300 transition delay-50  hover:bg-yellow-500 hover:p-2" href="">Promote</a></li>
-        <li><a className="mx-2 p-1 bg-red-300 hover:bg-red-500 hover:p-2" href="">About</a></li>
+        <li><a className="mx-2 p-1  transition-all delay-100  hover:bg-yellow-100 hover:p-2 hover:border-4" href="">Promote</a></li>
+        <li><a className="mx-2 p-1 transition-all delay-100 hover:bg-red-100 hover:p-2 hover:border-4" href="">About</a></li>
       </ul>
     </div>
 
-      <div className="background absolute h-full w-full flex items-center justify-center bg-gray-200">
-        <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+      <div className="background absolute h-full w-full flex items-center justify-center ">
+        <div className="max-w-sm p-6 bg-white border rounded-lg shadow-md dark:border-gray-700">
           <a href="#">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Interested in promoting your OnlyFans?</h5>
           </a>
