@@ -10,7 +10,7 @@ const Root: FC = () => {
   return (
   <div className=""> 
 
-    <div className="nav-bar bg-gray-300" >
+    <div className="z-15 nav-bar bg-white" >
       <ul className="flex text-3xl p-2" id='nav-list'>
 
         <li><a className="mx-2 p-1 transition-all delay-100 hover:bg-indigo-200 hover:p-2 hover:border-4" href="">Home</a></li>
@@ -18,10 +18,8 @@ const Root: FC = () => {
         <li><a className="mx-2 p-1 transition-all delay-100 hover:bg-red-100 hover:p-2 hover:border-4" href="">About</a></li>
       </ul>
     </div>
-
-      <div className="background absolute h-full w-full flex items-center justify-center ">
-        <div className="max-w-sm p-6 bg-white border rounded-lg shadow-md dark:border-gray-700">
-          <div className="">
+      <div className="flex-1 background absolute h-full w-full flex items-center justify-center opacity-100">
+        <div className="max-w-sm p-6 bg-white border rounded-lg shadow-md dark:border-gray-700 z-10">
             <a href="#">
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Interested in promoting your OnlyFans?</h5>
             </a>
@@ -30,10 +28,21 @@ const Root: FC = () => {
                 Contact Us
                 <svg aria-hidden="true" className="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
             </a>
+              <h5 className="b-8 m-8 mb-2 text-xl  track-tight text-gray-900 dark:text-white">Discounted rates offered </h5>
+        </div>
+        <div className="max-w-sm p-6 bg-white border rounded-lg shadow-md dark:border-gray-700">
+          <a href="#">
+          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Interested in promoting your OnlyFans?</h5>
 
-          </div>
+          </a>
+        </div>
       </div>
+      <div>
+        <div className="bitches opacity-25 ">
+            <img src="hoes.png"></img>
+        </div>
       </div>
+      
     </div>
   )
 }
