@@ -1,5 +1,5 @@
 # Consult
-This is a consultant react-vite-tailwind template. Rights reserved Nolan MacLear 2022.
+This is a consultant react+vite+tailwind website template. Has a react router barebones for multi page setup.
 
 # To install and setup
 Navigate to directory
